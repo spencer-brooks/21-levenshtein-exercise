@@ -12,7 +12,7 @@ Enter two strings as command line arguments.
 
 The program prints the edit distance and the alignment (minimum edit path) as a list of strings:
 ```
-py edit_distance.py hello world
+$ py edit_distance.py hello world
 Distance: 4
 ['hello', 'wello', 'wollo', 'worlo', 'worlo', 'world']
 ```
